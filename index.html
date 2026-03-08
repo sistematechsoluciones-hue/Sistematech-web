@@ -1,86 +1,165 @@
 <!DOCTYPE html>
-<div style="text-align:center;">
-<img src="logo.png" width="200">
-</div>
-<html>
+<html lang="es">
 <head>
+<meta charset="UTF-8">
 <title>SistemaTech Soluciones</title>
+
 <style>
+
 body{
-font-family: Arial;
-background:#f4f4f4;
+font-family: Arial, sans-serif;
 margin:0;
+background:#f4f6f9;
 text-align:center;
 }
+
 header{
-background:#0a4b78;
+background:#0a2a66;
 color:white;
-padding:30px;
+padding:40px;
 }
+
+header img{
+width:180px;
+margin-bottom:10px;
+}
+
 section{
 padding:40px;
 }
+
 .servicios{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card{
 background:white;
-margin:20px;
 padding:20px;
 border-radius:10px;
-box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
 }
-footer{
-background:#222;
+
+.card h3{
+color:#0a2a66;
+}
+
+.contacto{
+background:#0a2a66;
 color:white;
-padding:20px;
+padding:40px;
 }
-button{
+
+footer{
+background:#111;
+color:white;
+padding:15px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
 background:#25D366;
 color:white;
-border:none;
-padding:15px;
-font-size:16px;
-border-radius:8px;
-cursor:pointer;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
 }
+
 </style>
 </head>
 
 <body>
 
 <header>
+
+<img src="logo.png">
+
 <h1>SistemaTech Soluciones</h1>
-<p>Soporte técnico y soluciones tecnológicas</p>
+
+<p>Soluciones tecnológicas profesionales para hogares y empresas</p>
+
 </header>
 
 <section>
 
+<h2>Nuestros Servicios</h2>
+
 <div class="servicios">
-<h2>Servicios</h2>
 
-<p>✔ Reparación de computadores</p>
-<p>✔ Instalación de Windows</p>
-<p>✔ Configuración de impresoras</p>
-<p>✔ Instalación de redes y cableado</p>
-<p>✔ Instalación de cámaras de seguridad</p>
-<p>✔ Mantenimiento de equipos</p>
-
+<div class="card">
+<h3>Mantenimiento de Computadores</h3>
+<p>Diagnóstico, limpieza, optimización y reparación de equipos.</p>
 </div>
 
-<div class="servicios">
-<h2>Contacto</h2>
+<div class="card">
+<h3>Reparación de Impresoras</h3>
+<p>Solución de fallas, mantenimiento y cambio de repuestos.</p>
+</div>
 
-<p>Correo: sistematechsoluciones.com</p>
+<div class="card">
+<h3>Instalación de Redes</h3>
+<p>Configuración de redes, cableado estructurado y WiFi.</p>
+</div>
 
-<a href="https://wa.me/573104546187">
-<button>Escribir por WhatsApp</button>
-</a>
+<div class="card">
+<h3>Venta de Repuestos</h3>
+<p>Partes para computadores, impresoras y accesorios tecnológicos.</p>
+</div>
+
+<div class="card">
+<h3>Soporte Técnico</h3>
+<p>Asistencia técnica para hogares, oficinas y empresas.</p>
+</div>
+
+<div class="card">
+<h3>Instalación de Software</h3>
+<p>Instalación de sistemas operativos y programas.</p>
+</div>
 
 </div>
 
 </section>
 
+<section>
+
+<h2>¿Por qué elegirnos?</h2>
+
+<p>✔ Atención rápida y profesional</p>
+<p>✔ Experiencia en soporte tecnológico</p>
+<p>✔ Soluciones para hogares y empresas</p>
+<p>✔ Servicio confiable y garantizado</p>
+
+</section>
+
+<section class="contacto">
+
+<h2>Contacto</h2>
+
+<p>📞 WhatsApp: 3104546187</p>
+
+<p>📧 Correo: sistematechsoluciones@gmai.com</p>
+
+<p>🌎 Página web oficial SistemaTech Soluciones</p>
+
+</section>
+
 <footer>
-<p>© 2026 SistemaTech Soluciones</p>
+
+<p>© 2025 SistemaTech Soluciones | Todos los derechos reservados</p>
+
 </footer>
+
+<a class="whatsapp" href="https://wa.me/573104546187" target="_blank">
+
+WhatsApp
+
+</a>
 
 </body>
 </html>
